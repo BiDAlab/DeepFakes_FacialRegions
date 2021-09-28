@@ -60,19 +60,19 @@ The following Figure shows correct and wrong decisions of the fake detectors (ba
 
     
 ### <a name="references">References<a>
-**[1]** F. Chollet, Xception: Deep Learning with Depthwise Separable Convolutions, in: Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2017.
+**[1]** F. Chollet, Xception: Deep Learning with Depthwise Separable Convolutions, in: *Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2017.
     
-**[2]** A. Rössler, D. Cozzolino, L. Verdoliva, C. Riess, J. Thies, M. Nießner, FaceForensics++: Learning to Detect Manipulated Facial Images, in: Proc. IEEE/CVF International Conference on Computer Vision, 2019.
+**[2]** A. Rössler, D. Cozzolino, L. Verdoliva, C. Riess, J. Thies, M. Nießner, FaceForensics++: Learning to Detect Manipulated Facial Images, in: *Proc. IEEE/CVF International Conference on Computer Vision*, 2019.
     
-**[3]** H.H. Nguyen, J. Yamagishi and I. Echizen, Use of a Capsule Network to Detect Fake Images and Videos, arXiv:1910.12467
+**[3]** H.H. Nguyen, J. Yamagishi and I. Echizen, Use of a Capsule Network to Detect Fake Images and Videos, *arXiv:1910.12467*, 2019.
     
-**[4]** Y. Li, X. Yang, P. Sun, H. Qi, S. Lyu, Celeb-DF: A Large-Scale Challenging Dataset for DeepFake Forensics, in: Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2020.
+**[4]** Y. Li, X. Yang, P. Sun, H. Qi, S. Lyu, Celeb-DF: A Large-Scale Challenging Dataset for DeepFake Forensics, in: *Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition*, 2020.
     
     
 ## <a name="setup">How to use DeepFakes Detector<a>
-The three start-of-the-art fake detection systems are implemented in order to execute them in a few steps. However, two of them (DSP-FWA and Capsule Networks) are implemented in Pytorch library, meanwhile Xception Network is implemented in Keras. Therefore, two different environments have to be installed for using all the detectors.
+The three start-of-the-art fake detection systems are implemented in order to execute them in a few steps. Two of them (DSP-FWA and Capsule Networks) are implemented in Pytorch library, meanwhile Xception Network is implemented in Keras. Therefore, two different environments have to be installed for using all the detectors.
     
-**IMPORTANT**: **this repository must be downloaded or cloned** in order to use our DeepFakes Detector. Also, **the detector models have to be downloaded from our [server](http://atvs.ii.uam.es/atvs/models)**. This downloaded folder (called "models") should be **added inside of the repository folder**.
+**IMPORTANT**: **this repository must be downloaded or cloned** in order to use our DeepFakes detectors. Also, **the detector models have to be downloaded from our [server](http://atvs.ii.uam.es/atvs/models)**. This downloaded folder (called "models") should be **added inside of the repository folder**.
     
 ### <a name="install">Install & Requirements<a>
  Please, follow the steps to install them properly:
@@ -113,7 +113,7 @@ conda activate DeepFakes_FacialRegion_Xception
 ```   
     
 ### <a name="run">Run the Detector<a>
-After installing the configuration for both environments, the DeepFakes Detector can be executed from the terminal as follows:
+After installing the configuration for both environments, the DeepFakes detectors can be executed from the terminal as follows:
     
 **NOTE**: to use any detector, the corresponding environment has to be activated before (Step 4).
 
@@ -140,7 +140,7 @@ For instance:
 python deepfakes_facial_regions.py --detector DSP-FWA --region eyes --ddbb CelebDF 
 ```      
     
-Finally, the model will be ready for detecting whether the test image corresponds to a **real or a fake face** and showing the model prediction value between **0 and 1 (0 for real values or 1 for fake ones)**. Some examples of the output are shown below:
+Finally, the model will be ready for detecting whether the test image corresponds to a **real or a fake face** and showing the model prediction value between **0 and 1 (0 for real facial regions and 1 for fake ones)**. Some examples of the output are shown below:
     
 <p align="center"><img src="./media/Fake_Detector.png" alt="Fake Detector" title="Fake Detector"   width="1000"/></p>
     
