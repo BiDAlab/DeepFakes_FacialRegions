@@ -6,7 +6,7 @@
 
 Media forensics has attracted a tremendous attention in the last years in part due to the increasing concerns around **DeepFakes**. Since the release of the initial DeepFake databases of the **1st generation** such as UADFV and FaceForensics++ up to the latest databases of the **2nd generation** such as Celeb-DF and DFDC, many visual improvements have been carried out, making fake videos almost indistinguishable to the human eye. This GitHub provides the DeepFakes detectors trained in the following reference:
 
-**[DeepFakes_Facial_Regions2021]** R. Tolosana, S. Romero-Tapiador, J. Fierrez and R. Vera-Rodriguez, **"DeepFakes Detection across Generations: Analysis of Facial Regions, Fusion, and Performance Evaluation"**, *Engineering Applications of Artificial Intelligence*, (Under Review).
+**[DeepFakes_Facial_Regions2021]** R. Tolosana, S. Romero-Tapiador, J. Fierrez and R. Vera-Rodriguez, **"DeepFakes Detection across Generations: Analysis of Facial Regions, Fusion, and Performance Evaluation"**, *Engineering Applications of Artificial Intelligence*, 2021 (Under Review).
 
 **Two different methods** are studied in our experimental framework: i) the traditional one followed in the literature based on **selecting the entire face** as input to the fake detection system, and ii) a novel approach based on the **selection of specific facial regions** as input to the fake detection system. 
 
@@ -145,7 +145,7 @@ Finally, the model will be ready for detecting whether the test image correspond
 <p align="center"><img src="./media/Fake_Detector.png" alt="Fake Detector" title="Fake Detector"   width="1000"/></p>
     
 ## <a name="cite">Citation<a>
-- **[DeepFakes_Facial_Regions2021]** R. Tolosana, S. Romero-Tapiador, J. Fierrez and R. Vera-Rodriguez, **"DeepFakes Detection across Generations: Analysis of Facial Regions, Fusion, and Performance Evaluation"**, *Engineering Applications of Artificial Intelligence*, (Under Review).
+- **[DeepFakes_Facial_Regions2021]** R. Tolosana, S. Romero-Tapiador, J. Fierrez and R. Vera-Rodriguez, **"DeepFakes Detection across Generations: Analysis of Facial Regions, Fusion, and Performance Evaluation"**, *Engineering Applications of Artificial Intelligence*, 2021 (Under Review).
     
 All these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA- Lab group webpage. Please, remember to reference the above articles on any work made public.
     
