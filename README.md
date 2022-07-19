@@ -151,4 +151,4 @@ All these articles are publicly available in the [publications](http://atvs.ii.u
     
 ## <a name="contact">Contact<a>
   
-For more information, please contact us via email at ruben.tolosana@uam.es or sergio.romerot@estudiante.uam.es.
+For more information, please contact us via email at ruben.tolosana@uam.es or sergio.romero@uam.es.
