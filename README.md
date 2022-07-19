@@ -145,7 +145,7 @@ Finally, the model will be ready for detecting whether the test image correspond
 <p align="center"><img src="./media/Fake_Detector.png" alt="Fake Detector" title="Fake Detector"   width="1000"/></p>
     
 ## <a name="cite">Citation<a>
-- **[DeepFakes_Facial_Regions2021]** R. Tolosana, S. Romero-Tapiador, J. Fierrez and R. Vera-Rodriguez, **"DeepFakes Detection across Generations: Analysis of Facial Regions, Fusion, and Performance Evaluation"**, *Engineering Applications of Artificial Intelligence*, 2021 (Under Review).
+- **[DeepFakes_Facial_Regions2021]** R. Tolosana, S. Romero-Tapiador, R. Vera-Rodriguez, E. Gonzalez-Sosa and J. Fierrez, **"DeepFakes Detection across Generations: Analysis of Facial Regions, Fusion, and Performance Evaluation"**, *Engineering Applications of Artificial Intelligence*, 110, 2022.
     
 All these articles are publicly available in the [publications](http://atvs.ii.uam.es/atvs/listpublications.do) section of the BiDA- Lab group webpage. Please, remember to reference the above articles on any work made public.
     
